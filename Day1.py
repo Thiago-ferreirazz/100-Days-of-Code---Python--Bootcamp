@@ -1,0 +1,5 @@
+print("Bem vindo ao gerador de nomes para bandas\n")
+cidade = input("Por favor digite o nome da sua cidade natal: ")
+pet = input("Agora digite o nome do seu bichinho de estimação: ")
+band_name = (f'{pet} de {cidade}')
+print(f"O nome da sua banda sera: {band_name}")
