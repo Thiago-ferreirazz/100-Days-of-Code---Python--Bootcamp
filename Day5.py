@@ -15,7 +15,6 @@ password = ""
 for letter in range(1, nr_letters + 1):
     random_letters = random.choice(letters)
     password += random_letters
-
 # Gera símbolos aleatórios conforme a quantidade especificada pelo usuário
 for symbol in range(1, nr_symbols + 1):
     random_symbols = random.choice(symbols)
